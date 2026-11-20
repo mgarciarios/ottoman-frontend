@@ -55,6 +55,7 @@ Se sigue la separación presentación/dominio/datos descrita en `docs/brief/espe
 
 - Consigna original, prompt, matriz académica, especificaciones y contratos JSON: [`docs/brief/`](docs/brief/).
 - Guion de escenarios y riesgos: [`docs/guia_demo_y_defensa.md`](docs/guia_demo_y_defensa.md).
+- Video de demostración silencioso: [`docs/demo-ottoman-silenciosa.mp4`](docs/demo-ottoman-silenciosa.mp4).
 - Resultados de compilación y verificación: [`docs/verificacion.md`](docs/verificacion.md).
 - Prototipo navegable real (ocho pantallas): [Ottoman Control — HMI Android](https://www.figma.com/design/CJjvcobWKX7X3vDSwoNfNv).
 - Estado del prototipo: [`docs/figma.md`](docs/figma.md).

@@ -22,7 +22,7 @@ Este registro separa las pruebas ejecutadas de los escenarios todavía pendiente
 | 2026-11-19 | `adb devices -l` y `lsusb` para el teléfono físico | El teléfono no fue detectado; el usuario indicó dejarlo para otro momento. |
 | 2026-11-19 | Instalación del APK en el teléfono | El usuario informó que instaló la app manualmente. Falta confirmar el arranque y el recorrido visual en ese dispositivo; no se verificó mediante ADB. |
 | 2026-11-19 | Recorrido manual del usuario en su teléfono | El usuario confirmó que abrió la app y funcionaron misión normal, batería baja, obstáculo, visitante separado, orden sin respuesta y reconexión. Resultado reportado por el usuario; sin captura de pantalla/video ni inspección por ADB. |
-| 2026-11-19 | Video de demostración | El usuario informó que ya grabó el video silencioso de la app. El archivo no se adjuntó al proyecto ni se revisó; su contenido y duración quedan pendientes de verificación. |
+| 2026-11-19 | Video de demostración silencioso | Revisado `docs/demo-ottoman-silenciosa.mp4`: 142 s, 390 × 850, H.264; la pista AAC está prácticamente en silencio (pico medido −91 dB). Se ven misión normal, batería baja, obstáculo y mensaje HRI de visitante separado. No se distingue claramente la orden `NO_RESPONSE` y la reconexión. |
 | 2026-11-19 | Metadatos del prototipo Figma | Confirmados 8 frames de 390 × 844 y 5 reacciones. La vista final no se pudo revisar por el límite de llamadas MCP Starter. |
 | 2026-11-19 | Primer `git push -u origin main` al repositorio solicitado | Rechazado con HTTP 403 por falta de permiso de escritura de la cuenta autenticada. |
 | 2026-11-19 | Publicación después de habilitar permisos | `main` se publicó en `https://github.com/mgarciarios/ottoman-frontend`; commit `f6db601` (`Document team and phone validation`). |
@@ -61,8 +61,9 @@ Capturas tomadas directamente del AVD:
 - No se recorrieron manualmente todos los casos T01–T15. Los 14 tests cubren reglas y el repositorio simulado, no Activity rotation, modo avión, todos los diálogos ni persistencia Android real.
 - El reinicio probado en unit tests usa un `HistoryStore` en memoria; no se comprobó el historial de `SharedPreferences` tras cerrar y reabrir el proceso.
 - El usuario probó en su teléfono la misión normal, batería baja, obstáculo, visitante separado, orden sin respuesta y reconexión, e informó que todo funcionó. No contamos con evidencia visual de ese recorrido ni inspección por ADB. La revisión visual del último APK en el AVD sigue pendiente.
-- El Figma real existe, pero falta una revisión visual final. No se grabó un video de demostración.
-- La rama `main` está publicada en el repositorio solicitado. El usuario informa que el video está grabado; falta recibirlo o revisarlo para confirmar duración y cobertura de escenarios.
+- El Figma real existe, pero falta una revisión visual final.
+- El video dura 2:22, por debajo de los 3–5 minutos sugeridos en esta guía. Tampoco demuestra claramente desconexión/`NO_RESPONSE` y reconexión; agregar ese recorrido o repetir la grabación si la cátedra exige los cinco escenarios en el video.
+- La rama `main` está publicada en el repositorio solicitado.
 
 ## Artefacto
 
