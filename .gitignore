@@ -1,0 +1,11 @@
+.gradle/
+.idea/
+.kotlin/
+local.properties
+**/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+.DS_Store
+skillswap.zip

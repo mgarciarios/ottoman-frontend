@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0-proposed",
+  "robotId": "ottoman-g1-01",
+  "timestamp": "2026-11-16T15:00:00Z",
+  "connected": true,
+  "stale": false,
+  "batteryPercent": 78,
+  "operatingState": "EXECUTING",
+  "mission": {
+    "id": "mission-001",
+    "status": "RUNNING",
+    "destination": "Aula Magna",
+    "progressPercent": 60
+  },
+  "position": {
+    "waypoint": "Hall central",
+    "x": 0.52,
+    "y": 0.36,
+    "headingDegrees": 90
+  },
+  "movement": {
+    "moving": true,
+    "speedMetersPerSecondSimulated": 0.4
+  },
+  "alerts": [
+    {
+      "id": "alert-002",
+      "severity": "INFO",
+      "message": "Visitante en recorrido",
+      "acknowledged": false
+    }
+  ],
+  "service": {
+    "destination": "Aula Magna",
+    "visitorPresentSimulated": true,
+    "waypointsCompleted": 2,
+    "waypointsTotal": 4
+  }
+}

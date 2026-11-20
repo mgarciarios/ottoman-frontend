@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "1.0-proposed",
+  "commandId": "cmd-1003",
+  "robotId": "ottoman-g1-01",
+  "status": "NO_RESPONSE",
+  "respondedAt": null,
+  "reason": "TIMEOUT"
+}

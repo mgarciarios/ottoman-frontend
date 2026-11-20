@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0-proposed",
+  "alertId": "alert-003",
+  "robotId": "ottoman-g1-01",
+  "missionId": "mission-001",
+  "severity": "WARNING",
+  "type": "OBSTACLE",
+  "message": "Obstáculo en Pasillo A",
+  "createdAt": "2026-11-16T15:00:05Z",
+  "acknowledgedAt": null,
+  "resolvedAt": null,
+  "causeActive": true
+}

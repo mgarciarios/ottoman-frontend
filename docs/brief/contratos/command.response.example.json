@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "1.0-proposed",
+  "commandId": "cmd-1001",
+  "robotId": "ottoman-g1-01",
+  "status": "CONFIRMED",
+  "respondedAt": "2026-11-16T15:00:03Z",
+  "reason": null,
+  "note": "Aceptado por simulador, ejecución verificar por telemetría"
+}

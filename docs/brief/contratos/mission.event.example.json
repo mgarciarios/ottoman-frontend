@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0-proposed",
+  "eventId": "evt-2001",
+  "missionId": "mission-001",
+  "robotId": "ottoman-g1-01",
+  "type": "MISSION_STARTED",
+  "timestamp": "2026-11-16T15:00:03Z",
+  "details": "Recepción → Aula Magna",
+  "source": "simulator"
+}
