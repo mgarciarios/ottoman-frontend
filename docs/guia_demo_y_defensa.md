@@ -23,6 +23,19 @@ El humanoide se propone por su forma de interacción presencial. La app no demue
 6. Desconectar, mostrar edad de telemetría y orden sin respuesta; reconectar y revisar historial.
 7. Cerrar con riesgos, límites de hardware y trabajo pendiente de Figma/video si todavía no se generaron.
 
+## Video de demo sin audio (3–5 min)
+
+Grabar la pantalla del teléfono en vertical, sin narración. Dejar cada estado visible unos segundos para que se lean las etiquetas y alertas; no hace falta agregar voz ni editar el video.
+
+1. **Inicio y misión normal:** mostrar Inicio; abrir Demo → **Ejecutar misión normal**; volver a Inicio o Misiones y dejar que se vea el progreso y la llegada.
+2. **Batería baja:** Demo → **Batería baja · 18%**; mostrar la alerta y que el inicio queda bloqueado.
+3. **Obstáculo:** Demo → **Restablecer robot** → **Ejecutar misión normal** → **Forzar obstáculo**; mostrar la alerta, tocar **Resolver obstáculo** y luego reanudar desde Misiones.
+4. **Visitante separado:** restablecer e iniciar otra misión; tocar **Visitante se separa**, mostrar la alerta/mensaje HRI y tocar **Visitante vuelve**.
+5. **Desconexión:** restablecer e iniciar una misión; tocar **Orden sin respuesta**, esperar el timeout, mostrar desconexión/orden sin respuesta y tocar **Reconectar robot**.
+6. **Cierre:** mostrar Historial con los eventos del recorrido.
+
+El contenido de la aplicación deja visible que es una simulación; no presentar los estados como telemetría de un G1 físico.
+
 ## Escenarios del TP
 
 | Escenario | Preparación / acción | Resultado observable |
