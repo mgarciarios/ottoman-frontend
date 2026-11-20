@@ -2,6 +2,13 @@
 
 Aplicación Android nativa para supervisar y operar un **Unitree G1 simulado** que acompaña visitantes dentro de un campus universitario demostrativo. Proyecto de Desarrollo de Aplicaciones I, UADE.
 
+## Equipo
+
+- Tomás Bond
+- Martina María García Ríos
+- Julieta Ballestrero
+- Facundo Maldonado
+
 > La aplicación no se conecta a un robot ni representa una parada física de emergencia. Los sensores, posiciones, batería, acompañamiento y respuestas son simulados. El mapa es ilustrativo y no es un plano verificado de UADE.
 
 ## Ejecutar

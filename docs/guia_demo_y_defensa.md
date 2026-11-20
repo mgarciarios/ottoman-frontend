@@ -1,5 +1,12 @@
 # Guía de demostración y defensa
 
+## Integrantes
+
+- Tomás Bond
+- Martina María García Ríos
+- Julieta Ballestrero
+- Facundo Maldonado
+
 ## Caso de uso
 
 Ottoman es un Unitree G1 simulado que acompaña a una persona desde Recepción hasta Aula Magna, Aula 204 o Laboratorio de Tecnología. Una persona operadora en recepción observa misión y telemetría, reconoce alertas y decide cuándo pausar, reanudar, cancelar o pedir el regreso. El mapa representa un campus ficticio de un piso; hay que reemplazarlo por un plano autorizado si la cátedra lo requiere.
